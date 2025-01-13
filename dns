@@ -1,0 +1,7 @@
+options {
+    forwarders {
+        8.8.8.8;    // Google Public DNS
+        8.8.4.4;    // Google Public DNS (secondary)
+    };
+    forward only;
+};
